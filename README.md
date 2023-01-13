@@ -9,7 +9,7 @@ Se desarrollo el challenge provisto por la empresa GeoPagos.
 - styled-icons
 - tailwindcss
 
-## Como instalar dependencias e inicar el sitio
+## Como instalar dependencias e iniciar el sitio
 ### `npm i`
 ### `npm start`
 
