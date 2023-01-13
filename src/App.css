@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+.bg-primary {
+  background: #8f2df512;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-secondary {
+  background: #f2f2f2;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-blue {
+  background: #191c3c;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-primary {
+  color: #8f2df5;
 }
 
-.App-link {
-  color: #61dafb;
+.helperText {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #585858;
 }
 
-@keyframes App-logo-spin {
-  from {
+.form-label {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #585858;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #282627;
+}
+
+.label-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #585858;
+}
+
+.label2 {
+  font-family: "BBVA Benton Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #121212;
+}
+
+.footer-label {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #585858;
+}
+
+.information {
+  font-family: "BBVA Benton Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 14px;
+  color: #999999;
+}
+
+.amount {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.bg-visa-icon {
+  background: url(img/visa.png) no-repeat scroll 7px 7px;
+  background-position: right;
+}
+
+.bg-interrogative-icon {
+  background: url(img/interrogative.png) no-repeat scroll 7px 7px;
+  background-position: right;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border-left-color: #8f2df5;
+  animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+  100% {
     transform: rotate(360deg);
   }
 }
